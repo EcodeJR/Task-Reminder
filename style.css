@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4741A6;
+    color: #F9CE69;
+    height: 100vh;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.icon {
+    padding: 5px;
+}
+
+.icon i {
+    font-size: 25px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#open {
+    display: block;
+}
+
+#close {
+    display: none;
+}
+
+#text {
+    display: none;
+    border: none;
+    width: 30vw;
+    padding: 0 3px;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 5px 0;
+}
+
+
+/*task nootice*/
+
+.task_bar {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9CE69;
+    border-radius: 5px;
+}
+
+.task_bar h2 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.task_bar div {
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#in-text {
+    height: 100%;
+    width: 60%;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#submit {
+    width: 30%;
+    height: 100%;
+    background-color: #4741A6;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#submit:hover {
+    background-color: #554FBA;
+}
+
+.task_bar ul {
+    width: 100%;
+    min-height: 30vh;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.task_bar ul li {
+    color: #F9CE69;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 5px;
+    background-color: #fff;
+    margin: 2px 0;
+    width: 100%;
+}
+
+#clear {
+    padding: 10px 25px;
+    background-color: #4741A6;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 10px 30px;
+}
